@@ -56,3 +56,13 @@ catalogs:
 
 
 ````
+
+
+### Old
+#### sqllib -> avro1.10, flink-sql-avro.1.12.1, flink-json-1.12.1, pulsar-flink-sql-connector_2.11-1.12.4.6
+````
+
+./bin/start-cluster.sh
+./bin/sql-client.sh embedded --library /Users/tspann/Documents/servers/flink112/sqllib
+
+````
